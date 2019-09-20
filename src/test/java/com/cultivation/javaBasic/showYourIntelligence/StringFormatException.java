@@ -6,15 +6,24 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 public class StringFormatException extends Exception {
     public StringFormatException(String message) {
         // TODO: please modify the following code to pass the test
-        // <--start
-        throw new NotImplementedException();
+        int sum;
+        try {
+            sum =Integer.MAX_VALUE + 1;
+        } catch (Exception error) {
+            throw new Error(message);
+        }
         // --end-->
     }
 
     public StringFormatException(String message, Throwable cause) {
         // TODO: please modify the following code to pass the test
         // <--start
-        throw new NotImplementedException();
+        int sum;
+        try {
+            sum =Integer.MAX_VALUE + 1;
+        } catch (Exception error) {
+            throw new Error(message, error);
+        }
         // --end-->
     }
 }
