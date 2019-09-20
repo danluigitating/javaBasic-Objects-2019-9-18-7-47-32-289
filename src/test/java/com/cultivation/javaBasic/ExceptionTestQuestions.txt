@@ -1,0 +1,19 @@
+What is the knowledge point of the test? Where is the official document to the knowledge point?
+
+https://www.geeksforgeeks.org/errors-v-s-exceptions-in-java/
+https://www.edureka.co/blog/java-tutorial/
+https://www.geeksforgeeks.org/get-name-of-current-method-being-executed-in-java/
+https://www.geeksforgeeks.org/equals-hashcode-methods-java/
+
+Why the test failed at first?
+The test failed because the array for comparing results is empty or the methods required are missing.
+
+Why you corrected the test that way?
+I corrected the test by manually inputting the expected value when doing the operations or by filling up the methods.
+
+Do you have further questions on this knowledge point?
+I have a blocker when doing tests for 
+should_get_method_name_in_stack_frame()
+should_customize_exception()
+should_customize_exception_continued()
+seems it cannot get the error message in the exception.

@@ -1,0 +1,17 @@
+What is the knowledge point of the test? Where is the official document to the knowledge point?
+
+https://www.geeksforgeeks.org/get-name-of-current-method-being-executed-in-java/
+https://examples.javacodegeeks.com/core-java/reflection/get-super-class-of-an-object/
+https://www.geeksforgeeks.org/3-different-ways-print-exception-messages-java/
+https://www.w3schools.com/java/java_classes.asp
+https://www.geeksforgeeks.org/classes-objects-java/
+https://www.learnjavaonline.org/en/Objects
+
+Why the test failed at first?
+The test failed because the array for comparing results is empty or the methods required are missing.
+
+Why you corrected the test that way?
+I corrected the test by manually inputting the expected value when doing the operations or by filling up the methods.
+
+Do you have further questions on this knowledge point?
+None
